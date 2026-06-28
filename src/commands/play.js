@@ -5,7 +5,7 @@ const { getOrCreateQueue } = require('../utils/getQueue');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('play')
-    .setDescription('🎵 Jouer une musique ou playlist)')
+    .setDescription('🎵 Jouer une musique ou playlist')
     .addStringOption(opt =>
       opt.setName('input')
         .setDescription('URL ou nom de la musique à rechercher')
